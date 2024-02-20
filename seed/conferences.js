@@ -6,8 +6,9 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const main = async () => {
     const conferences = [
+        {name: 'Eastern'},
+        {name: 'Western'}
     ]
-
     await Conference.insertMany(conferences)
     console.log("Created some Conferences!")
 }
