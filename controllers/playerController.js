@@ -1,10 +1,7 @@
 const Player = require('../models/player');
 
 const getPlayers= async (req,res)=>{
-    const players= await Player.find().populate({
-        path: 'team',
-        select: 'name -_id'
-    })
+    const players= await Player.find().populate('team')
     res.json(players)
     }
 
