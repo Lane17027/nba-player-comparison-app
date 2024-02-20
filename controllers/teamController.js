@@ -1,5 +1,12 @@
 const Team = require('../models/team');
 
+
+const getTeams= async (req,res)=>{
+const teams= await Team.find()
+res.json(teams)
+}
+
+
 const createTeam = async (req, res) => {
     try {
         const team = await new Team(req.body)
@@ -13,5 +20,6 @@ const createTeam = async (req, res) => {
 }
 
 module.exports = {
-    createTeam,
+    getTeams,
+    createTeam
 }
