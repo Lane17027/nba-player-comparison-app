@@ -1,5 +1,10 @@
 const Conference = require('../models/conference');
 
+const getConferences= async (req, res)=>{
+    const conferences= await Conference.find()
+    res.json(conferences)
+}
+
 const createConference = async (req, res) => {
     try {
         const conference = await new Conference(req.body)
@@ -13,5 +18,6 @@ const createConference = async (req, res) => {
 }
 
 module.exports = {
-    createConference,
+    getConferences,
+    createConference
 }
