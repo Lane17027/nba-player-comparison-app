@@ -1,5 +1,14 @@
 const Player = require('../models/player');
 
+const getPlayers= async (req,res)=>{
+    const players= await Player.find().populate({
+        path: 'team',
+        select: 'name -_id'
+    })
+    res.json(players)
+    }
+
+
 const createPlayer = async (req, res) => {
     try {
         const player = await new Player(req.body)
@@ -13,5 +22,6 @@ const createPlayer = async (req, res) => {
 }
 
 module.exports = {
+    getPlayers,
     createPlayer,
 }

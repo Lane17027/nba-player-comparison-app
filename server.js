@@ -24,3 +24,6 @@ app.get('/conferences', conferenceController.getConferences)
 
 
 app.get('/teams', teamController.getTeams)
+
+
+app.get('/players', playerController.getPlayers)

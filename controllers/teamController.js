@@ -2,7 +2,10 @@ const Team = require('../models/team');
 
 
 const getTeams= async (req,res)=>{
-const teams= await Team.find()
+const teams= await Team.find().populate({
+    path:'conference',
+    select: 'name -_id'
+})
 res.json(teams)
 }
 
