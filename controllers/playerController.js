@@ -55,9 +55,6 @@ const deletePlayer = async (req, res) => {
     }
 }
 
-const trialFunction=async (req, res)=>{
-    let response= await axios.get
-}
 
 module.exports = {
     getPlayers,
