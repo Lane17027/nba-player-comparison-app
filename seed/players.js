@@ -9,7 +9,7 @@ const main = async () => {
         {
             name: 'Shai Gilgeous-Alexander',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1628983.png',
-            team: '65d3f8cee508f46a87d5d4ec',
+            team: '65d687d68e5633734493db1b',
             ppg: 31.1,
             rbpg: 5.5,
             apg:6.5,
@@ -21,7 +21,7 @@ const main = async () => {
         {
             name: 'Jalen Williams',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1631114.png',
-            team: '65d3f8cee508f46a87d5d4ec',
+            team: '65d687d68e5633734493db1b',
             ppg: 19.2,
             rbpg: 4.1,
             apg:4.6,
@@ -33,7 +33,7 @@ const main = async () => {
         {
             name: 'Chet Holmgren',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1631096.png',
-            team: '65d3f8cee508f46a87d5d4ec',
+            team: '65d687d68e5633734493db1b',
             ppg: 16.7,
             rbpg: 7.6,
             apg:2.7,
@@ -45,7 +45,7 @@ const main = async () => {
         {
             name: 'Josh Giddey',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1630581.png',
-            team: '65d3f8cee508f46a87d5d4ec',
+            team: '65d687d68e5633734493db1b',
             ppg: 11.5,
             rbpg: 6.1,
             apg:4.5,
@@ -57,7 +57,7 @@ const main = async () => {
         {
             name: 'Luguentz Dort',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1629652.png',
-            team: '65d3f8cee508f46a87d5d4ec',
+            team: '65d687d68e5633734493db1b',
             ppg: 10.6,
             rbpg:  3.8,
             apg: 1.4,
@@ -69,7 +69,7 @@ const main = async () => {
         {
             name: 'Luka Doncic',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1629029.png',
-            team: '65d3f8cee508f46a87d5d4ed',
+            team: '65d687d68e5633734493db1c',
             ppg: 34.2,
             rbpg:  8.8,
             apg: 9.5,
@@ -81,7 +81,7 @@ const main = async () => {
         {
             name: 'Kyrie Irving',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/202681.png',
-            team: '65d3f8cee508f46a87d5d4ed',
+            team: '65d687d68e5633734493db1c',
             ppg: 25.5,
             rbpg:  5.2,
             apg: 5.5,
@@ -93,7 +93,7 @@ const main = async () => {
         {
             name: 'Tim Hardaway Jr.',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/203501.png',
-            team: '65d3f8cee508f46a87d5d4ed',
+            team: '65d687d68e5633734493db1c',
             ppg: 17.3,
             rbpg:  3.6,
             apg: 1.7,
@@ -105,7 +105,7 @@ const main = async () => {
         {
             name: 'Dante Exum',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/203957.png',
-            team: '65d3f8cee508f46a87d5d4ed',
+            team: '65d687d68e5633734493db1c',
             ppg: 9.2,
             rbpg:  2.8,
             apg: 2.8,
@@ -117,7 +117,7 @@ const main = async () => {
         {
             name: 'Dereck Lively',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1641726.png',
-            team: '65d3f8cee508f46a87d5d4ed',
+            team: '65d687d68e5633734493db1c',
             ppg: 9.2,
             rbpg:  7.8,
             apg: 1.3,
@@ -129,7 +129,7 @@ const main = async () => {
         {
             name: 'Victor Wembanyama',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1641705.png',
-            team: '65d3f8cee508f46a87d5d4ee',
+            team: '65d687d68e5633734493db1d',
             ppg: 20.5,
             rbpg:  10.0,
             apg: 3.2,
@@ -141,7 +141,7 @@ const main = async () => {
         {
             name: 'Devin Vassell',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1630170.png',
-            team: '65d3f8cee508f46a87d5d4ee',
+            team: '65d687d68e5633734493db1d',
             ppg: 18.9,
             rbpg:  3.7,
             apg: 3.7,
@@ -153,7 +153,7 @@ const main = async () => {
         {
             name: 'Keldon Johnson',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1629640.png',
-            team: '65d3f8cee508f46a87d5d4ee',
+            team: '65d687d68e5633734493db1d',
             ppg: 16.1,
             rbpg:  5.7,
             apg: 3.0,
@@ -165,7 +165,7 @@ const main = async () => {
         {
             name: 'Zach Collins',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1628380.png',
-            team: '65d3f8cee508f46a87d5d4ee',
+            team: '65d687d68e5633734493db1d',
             ppg: 11.5,
             rbpg:  5.5,
             apg: 3.1,
@@ -177,7 +177,7 @@ const main = async () => {
         {
             name: 'Jeremy Sochan',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1631110.png',
-            team: '65d3f8cee508f46a87d5d4ee',
+            team: '65d687d68e5633734493db1d',
             ppg: 11.4,
             rbpg:  6,
             apg: 3.5,
@@ -189,7 +189,7 @@ const main = async () => {
         {
             name: 'Jalen Brunson',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1628973.png',
-            team: '65d3f8cee508f46a87d5d4ef',
+            team: '65d687d68e5633734493db1e',
             ppg: 27.6,
             rbpg:  3.8,
             apg: 6.5,
@@ -201,7 +201,7 @@ const main = async () => {
         {
             name: 'Julius Randle',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/203944.png',
-            team: '65d3f8cee508f46a87d5d4ef',
+            team: '65d687d68e5633734493db1e',
             ppg: 24,
             rbpg:  9.2,
             apg: 5,
@@ -213,7 +213,7 @@ const main = async () => {
         {
             name: 'OG Anunoby',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png',
-            team: '65d3f8cee508f46a87d5d4ef',
+            team: '65d687d68e5633734493db1e',
             ppg: 15.3,
             rbpg:  4.2,
             apg: 2.3,
@@ -225,7 +225,7 @@ const main = async () => {
         {
             name: 'Josh Hart',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1628404.png',
-            team: '65d3f8cee508f46a87d5d4ef',
+            team: '65d687d68e5633734493db1e',
             ppg: 7.8,
             rbpg:  7.1,
             apg: 3.2,
@@ -237,7 +237,7 @@ const main = async () => {
         {
             name: 'Mitchell Robinson',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1629011.png',
-            team: '65d3f8cee508f46a87d5d4ef',
+            team: '65d687d68e5633734493db1e',
             ppg: 6.2,
             rbpg:  10.3,
             apg: .7,
@@ -249,7 +249,7 @@ const main = async () => {
         {
             name: 'Paolo Banchero',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1631094.png',
-            team: '65d3f8cee508f46a87d5d4f0',
+            team: '65d687d68e5633734493db1f',
             ppg: 23,
             rbpg:  6.9,
             apg: 5.3,
@@ -261,7 +261,7 @@ const main = async () => {
         {
             name: 'Franz Wagner',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1630532.png',
-            team: '65d3f8cee508f46a87d5d4f0',
+            team: '65d687d68e5633734493db1f',
             ppg: 21.1,
             rbpg:  5.6,
             apg: 4.1,
@@ -273,7 +273,7 @@ const main = async () => {
         {
             name: 'Jalen Suggs',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1630591.png',
-            team: '65d3f8cee508f46a87d5d4f0',
+            team: '65d687d68e5633734493db1f',
             ppg: 12.3,
             rbpg:  3.3,
             apg: 2.4,
@@ -285,7 +285,7 @@ const main = async () => {
         {
             name: 'Cole Anthony',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1630175.png',
-            team: '65d3f8cee508f46a87d5d4f0',
+            team: '65d687d68e5633734493db1f',
             ppg: 11.9,
             rbpg:  4,
             apg: 4,
@@ -297,7 +297,7 @@ const main = async () => {
         {
             name: 'Moritz Wagner',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1629021.png',
-            team: '65d3f8cee508f46a87d5d4f0',
+            team: '65d687d68e5633734493db1f',
             ppg: 11.1,
             rbpg:  4.4,
             apg: 1.2,
@@ -309,7 +309,7 @@ const main = async () => {
         {
             name: 'Jayson Tatum',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png',
-            team: '65d3f8cee508f46a87d5d4f1',
+            team: '65d687d68e5633734493db20',
             ppg: 27.1,
             rbpg:  8.6,
             apg: 4.8,
@@ -321,7 +321,7 @@ const main = async () => {
         {
             name: 'Jaylen Brown',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1627759.png',
-            team: '65d3f8cee508f46a87d5d4f1',
+            team: '65d687d68e5633734493db20',
             ppg: 22,
             rbpg:  5.5,
             apg: 3.7,
@@ -333,7 +333,7 @@ const main = async () => {
         {
             name: 'Kristaps Porzingis',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/204001.png',
-            team: '65d3f8cee508f46a87d5d4f1',
+            team: '65d687d68e5633734493db20',
             ppg: 20.2,
             rbpg:  6.9,
             apg: 1.9,
@@ -345,7 +345,7 @@ const main = async () => {
         {
             name: 'Derrick White',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/1628401.png',
-            team: '65d3f8cee508f46a87d5d4f1',
+            team: '65d687d68e5633734493db20',
             ppg: 15.6,
             rbpg:  3.9,
             apg: 4.7,
@@ -357,7 +357,7 @@ const main = async () => {
         {
             name: 'Jrue Holiday',
             playerImg: 'https://cdn.nba.com/headshots/nba/latest/1040x760/201950.png',
-            team: '65d3f8cee508f46a87d5d4f1',
+            team: '65d687d68e5633734493db20',
             ppg: 13.1,
             rbpg:  5.9,
             apg: 4.8,

@@ -19,6 +19,12 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
 app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));
 
+ let headers={
+    'Content-Type': 'application/json',
+    'Access-Control-Request-Headers': '*',
+    'api-key': 'eJM3BYfxR5skEe0U5L4LhSAPRxLWbN6ppjr44i027wlvRXesw1ncGTyGeUvA3Nag',
+  }
+
 app.get("/conferences", conferenceController.getConferences);
 app.get("/conferences/:id", conferenceController.getConference);
 app.post("/conferences", conferenceController.createConference);

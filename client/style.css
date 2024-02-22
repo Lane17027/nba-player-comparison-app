@@ -83,4 +83,13 @@ body {
     min-width: 40%;
     justify-items: center;
     font-size: 20px;
+    column-gap: 0px;
+
+}
+
+.all-stats div{
+  width: 100%;
+  border: 1px solid white;
+  margin: none;
+  text-align: center;
 }

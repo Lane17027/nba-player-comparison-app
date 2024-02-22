@@ -2,6 +2,7 @@ const Player = require('../models/player');
 
 const getPlayers= async (req,res)=>{
     const players= await Player.find().populate('team')
+    console.log(players)
     res.json(players)
     }
 
@@ -52,6 +53,10 @@ const deletePlayer = async (req, res) => {
     } catch (error) {
         return res.status(500).send(error.message);
     }
+}
+
+const trialFunction=async (req, res)=>{
+    let response= await axios.get
 }
 
 module.exports = {
