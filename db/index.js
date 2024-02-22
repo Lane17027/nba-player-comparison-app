@@ -20,10 +20,6 @@
 
 
 
-
-
-
-
 const mongoose = require('mongoose')
 
 let uri=`mongodb+srv://Lane17027:Lane17027@nbadatabase.z6tvkh3.mongodb.net/?appName=mongosh+2.1.3`;

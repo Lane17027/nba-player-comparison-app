@@ -52,9 +52,6 @@ submitButton.addEventListener("click", async () => {
       player13P.innerHTML = player.threePercentage;
       player1Assists.innerHTML = player.apg;
     }
-  }
-
-  for (let player of allPlayers.data) {
     if (player.name == name2) {
       player2Name.innerHTML = player.name;
       player2Img.innerHTML = `<img src=${player.playerImg}>`;
@@ -69,7 +66,12 @@ submitButton.addEventListener("click", async () => {
     }
   }
 
-  if (name1 && name2) {
+  if (!player2Name.innerHTML || !player1Name.innerHTML){
+    alert('Player name(s) not found')
+    return
+  }
+  else {
+    if (name1 && name2) {
     let player1FGNumber = player1FG.innerHTML.replace("%", "");
     let player2FGNumber = player2FG.innerHTML.replace("%", "");
 
@@ -163,4 +165,5 @@ submitButton.addEventListener("click", async () => {
         player1Steals.style.color='red'
     }
   }
+}
 });

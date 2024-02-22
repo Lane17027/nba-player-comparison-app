@@ -39,7 +39,7 @@ body {
   }
 
   .player-img img{
-    width: 100%;
+    width: 200px;
     height: auto;
   }
 
@@ -92,4 +92,46 @@ body {
   border: 1px solid white;
   margin: none;
   text-align: center;
+}
+
+@media screen and (max-width: 430px) {
+  .player-input{
+    width: auto;
+    justify-content: space-evenly;
+  }
+  .players-info{
+    font-size: 10px;
+    justify-content: space-between;
+  }
+
+  #player-1-info{
+    width: 60px;
+  }
+
+  .players-info-detailed img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .player-img {
+    width: auto;
+    justify-content: space-around;
+  }
+
+  .player-img img {
+    width: 100px;
+    height: 75px;
+  }
+
+  .all-stats div{
+    width: 105px;
+    border: 1px solid white;
+    margin: none;
+    text-align: center;
+  }
+
+  .all-stats{
+    margin-right: 100px;
+  }
+
 }
