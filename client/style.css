@@ -28,7 +28,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     width: 40%;
     max-width: 40%;
-    min-width: 40%;
+    min-width: 10%;
     column-gap: 50px;
     margin-top: 50px;
     justify-items: center;
@@ -39,7 +39,13 @@ body {
   }
 
   .player-img img{
-    width: 200px;
+    width: fit-content;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .player-img div{
+    max-width: 200px;
     height: auto;
   }
 
@@ -114,7 +120,7 @@ body {
   }
 
   .player-img {
-    width: auto;
+    width: 40%;
     justify-content: space-around;
   }
 
@@ -133,5 +139,9 @@ body {
   .all-stats{
     margin-right: 100px;
   }
+
+ .player-input {
+  width: auto;
+ }
 
 }
